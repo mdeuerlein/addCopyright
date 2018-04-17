@@ -1,5 +1,6 @@
 function addCopyword(txt) {
     // addCopyword by Markus Deuerlein, www.entidia.de
+    // ISSUE just a test
     var copyword ="COPYRIGHT ";
     var off = 0, pos = 0, cnt = 0, hit = 0, mod = 20, mul = 50;
     while ((pos = txt.indexOf(' ', off))!==-1) {
